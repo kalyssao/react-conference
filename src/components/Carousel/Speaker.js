@@ -4,9 +4,13 @@ import './Carousel.css'
 function Speaker(props) {
     return (
         <div className="SpeakerWrapper">
-            <p>Name is {props.name}</p>
-            <p>Picture url is {props.picture}</p>
-            <p>Job title is {props.title}</p>
+            <img alt="speaker" className="speaker-image" src={props.picture} />
+            
+            <div className="speaker-details">
+                <h4>{props.name}</h4>
+                <p>{props.title}</p>
+            </div>
+            
         </div>
     )
 }
