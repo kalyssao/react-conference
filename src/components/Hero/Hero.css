@@ -1,6 +1,7 @@
 .HeroWrapper {
-    height: 80vh;
+    height: 55vh;
     padding: 2rem;
+    background-color: palevioletred;
 }
 
 .hero-button {

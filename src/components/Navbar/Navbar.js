@@ -6,7 +6,7 @@ export default function Navbar() {
     const [ clicked, setClicked ] = useState(false)
     return(
         <nav className="NavbarItems">
-            <h1 className="navbar-logo"><i className="fab fa-react"></i>React Conference</h1>
+            <h1 className="navbar-logo"><i className="fab fa-react"></i>Fake React Conference</h1>
 
             <div className="menu-icon" onClick={ () => setClicked(!clicked)}>
 
