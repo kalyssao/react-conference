@@ -16,7 +16,7 @@ export default function Navbar() {
             <ul className={clicked ? 'nav-menu-active' : 'nav-menu'}>
                 {MenuItems.map((item, index) => {
                     return (
-                        <li>
+                        <li key={item.id}>
                             <a className={item.cName} href={item.url}>
                                 {item.title}
                             </a>
