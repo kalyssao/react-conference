@@ -13,7 +13,7 @@ function Hero() {
             </div>
             <div>
                 <HeroButton/>
-                <h4>Are you a student or someone from a low income country? Apply for a scholarship <a href="/">here</a></h4>
+                <h4>If you don't have the means to afford a ticket you can apply for a scholarship <a href="/">here</a></h4>
             </div>
             
             
